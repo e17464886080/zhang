@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{%url 'loginin'%}">
+    <p>
+        <input type="text" name="username" placeholder="请输入用户名">
+    </p>
+    <p>
+
+        <input type="password" name="userpwd" placeholder="请输入密码">
+    </p>
+    <p>
+        <input type="submit" value="登录">
+    </p>
+    {{msg}}
+</form>
+</body>
+</html>
